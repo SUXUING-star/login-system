@@ -1,8 +1,18 @@
-# React + Vite
+# 登陆注册模板网站 
+## 前后端分离模式
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+** 前端技术栈：react框架(vite)
+** 后端技术栈：go（gin框架）
+** 数据库mongodb
 
-Currently, two official plugins are available:
+## 登陆注册等功能实现
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+基础的登录注册都能实现，注册需要用发送验证邮件才能注册
+
+其余像忘记密码，重置密码等功能都已经实现。
+
+## 配置环境变量
+
+前端需要在.env.local配置环境变量
+后端需要在.env配置环境变量
+
